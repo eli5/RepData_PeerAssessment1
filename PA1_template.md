@@ -94,7 +94,7 @@ hist(new.df.sum, main="histogram | total number of steps taken each day", xlab="
 mean.new.df <- mean(new.df.sum)
 median.new.df <- median(new.df.sum)
 ```
-When NA values were filled with means for each day, the mean number of steps were 1.0766 &times; 10<sup>4</sup> and median 10765.
+When NA values were filled with means for each day, the mean number of steps were *9614.0692* and median *1.0395 &times; 10<sup>4</sup>*.
 
 *Do these values differ from the estimates from the first part of the assignment?*
 

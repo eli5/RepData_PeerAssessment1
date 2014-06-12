@@ -72,7 +72,7 @@ hist(new.df.sum, main="histogram | total number of steps taken each day", xlab="
 mean.new.df <- mean(new.df.sum)
 median.new.df <- median(new.df.sum)
 ```
-When NA values were filled with means for each day, the mean number of steps were `r mean.steps` and median `r median.steps`.
+When NA values were filled with means for each day, the mean number of steps were *`r mean.new.df`* and median *`r median.new.df`*.
 
 *Do these values differ from the estimates from the first part of the assignment?*
 ```{r}
